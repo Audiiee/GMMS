@@ -1,0 +1,225 @@
+body{
+  background: #eee;
+ }
+  
+ 
+ #side_nav{
+  background: #000;
+  min-width: 270px;
+  max-width: 270px;
+  transition: all 0.3s;
+  border: 1px solid rgb(40, 39, 39); 
+ }
+ .content{
+    min-height: 100vh;
+    width: 100%;
+ }
+ hr.h-color{
+   background: #eee;
+ }
+ 
+ .sidebar li.active{
+    background: #eee;
+    border-radius: 8px;
+ }
+ 
+ .sidebar li.active a, .sidebar li.active a:hover {
+  color: #000;
+ }
+ .sidebar li a{
+  color: #fff;
+ }
+ 
+ @media(max-width: 767px){
+  #side_nav{
+    margin-left: -250px;
+    position: absolute;
+    min-height: 100vh;
+    z-index: 1;
+ 
+  }
+  #side_nav.active{
+    margin-left: 0;
+   }
+  }
+/* image */
+  #output {
+    height: 170px;
+    width: 170px;
+    background-image: url("Fit/pictures/profile.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border:5px solid #ffffff;
+
+}
+.content {
+  background-color:   rgba(6, 6, 6, 0.97);
+  color: white;
+}
+/* Announcement */
+.dashboard-content h2{
+color:#f54324;
+}
+.dashboard-content span{
+color: #000000;
+font-weight: 700;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* .form-group{ 
+box-shadow: 0px 10px 30px 0px rgb(114, 112, 112);
+} */
+.form-group textarea{
+background-color:beige;
+
+}
+
+/* Sign-out */
+#modal-footer {
+padding-left: 20px;
+padding-right: 20px;
+}
+.modal-body, .modal-footer, .modal-header{
+background-color: rgb(10, 11, 31);
+color: white;
+}
+
+#button-close {
+background-color: white;
+}
+
+
+
+
+/* Announcement */
+#Notif {
+margin-top: 30px;
+margin-left: 130px;
+margin-right: 100px;
+border: 10px double #ffffff; 
+}
+
+#button {
+margin-left: 991px;
+margin-top: 10px;
+
+}
+
+/* New Member */
+#Nmember {
+
+margin-left: 150px;
+margin-right: 150px;
+border: 5px double #f54324; 
+/* box-shadow: 0px 10px 20px 0px rgb(235, 225, 225); */
+
+}
+
+#nmemberbtn {
+margin-left: 940px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+label {
+text-transform: uppercase;
+font-weight: bold;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="number"], input[type="tel"], input[type="file"] {
+background-color: black;
+border: 1px solid#f54324;
+color:#f54324;
+}
+input[type="email"]:focus, input[type="password"]:focus,  input[type="text"]:focus, input[type="number"]:focus, input[type="tel"]:focus{
+background-color: black;
+color: white;
+}
+
+input[type=radio] {
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 3px solid #f54324;
+}
+
+input[type=radio]:checked {
+background-color:#f54324 ; 
+}
+.form-control option {
+background: black ;
+color: white;
+}
+
+.dashboard-content select {
+background-color: black;
+border: 1px solid #f54324;
+color:rgb(174, 165, 165);
+}
+.dashboard-content select:focus {
+background-color: black;
+color: white;
+}
+
+.dashboard-content ::placeholder{
+color:rgb(174, 165, 165);
+
+}
+
+
+/* Member / Pending */
+.my-custom-scrollbar {
+  position: relative;
+  height: 470px;
+  overflow:auto;
+  border: 2px solid #f54324;
+  }
+
+  #check {
+    margin: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+  display: block;
+ 
+  }
+  .table thead{
+    text-transform: uppercase;
+  }
+
+
+  /* Member / Active */
+  input[type=date] {
+    background: transparent;
+    border:1px solid #f54324;
+    color:rgb(174, 165, 165);
+    padding:5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding:2px;
+    border-radius: 3px;
+}
+
+
+
+
+/* Reports */
+
+ .single-services{
+ height:100%;
+ background-color: #bf341b; 
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.single-services h2{
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+
